@@ -1,0 +1,42 @@
+'''
+pandas
+
+
+1. pd.read_csv('data.csv') - Reads a CSV file named "data.csv" into a DataFrame.
+2. pd.DataFrame({'A': [1, 2], 'B': [3, 4]}) - Creates a new DataFrame with columns "A" and "B" and values [1, 2] and [3, 4] respectively.
+3. df.head(5) - Displays the first 5 rows of a DataFrame.
+4. df.info() - Displays information about a DataFrame, including data types and missing values.
+5. df.describe() - Generates descriptive statistics for a DataFrame.
+6. df.groupby('A').mean() - Groups a DataFrame by column "A" and calculates the mean.
+7. df.merge(df2, on='B') - Merges two DataFrames on column "B".
+8. df.pivot_table(index='A', columns='B', values='C') - Creates a pivot table with index "A", columns "B", and values "C".
+9. df.sort_values('A', ascending=False) - Sorts a DataFrame by column "A" in descending order.
+10. df.drop(['B'], axis=1) - Drops column "B" from a DataFrame.
+
+NumPy
+
+1. np.array([1, 2, 3]) - Creates a new NumPy array with values [1, 2, 3].
+2. np.zeros((3, 4)) - Creates a new array filled with zeros, with shape (3, 4).
+3. np.ones((2, 3)) - Creates a new array filled with ones, with shape (2, 3).
+4. np.random.rand(3, 4) - Generates an array of random numbers, with shape (3, 4).
+5. np.mean([1, 2, 3]) - Calculates the mean of the array [1, 2, 3].
+6. np.std([1, 2, 3]) - Calculates the standard deviation of the array [1, 2, 3].
+7. np.sort([3, 1, 2]) - Sorts the array [3, 1, 2] in ascending order.
+8. np.dot([1, 2], [3, 4]) - Performs matrix multiplication on the arrays [1, 2] and [3, 4].
+9. np.reshape([1, 2, 3], (3, 1)) - Reshapes the array [1, 2, 3] to shape (3, 1).
+10. np.transpose([1, 2, 3]) - Transposes the array [1, 2, 3].
+
+Matplotlib
+
+1. plt.plot([1, 2, 3]) - Creates a line plot with values [1, 2, 3].
+2. plt.hist([1, 2, 3], bins=5) - Creates a histogram with values [1, 2, 3] and 5 bins.
+3. plt.scatter([1, 2], [3, 4]) - Creates a scatter plot with x-values [1, 2] and y-values [3, 4].
+4. plt.bar([1, 2], [3, 4]) - Creates a bar chart with x-values [1, 2] and heights [3, 4].
+5. plt.pie([1, 2, 3]) - Creates a pie chart with values [1, 2, 3].
+6. plt.boxplot([1, 2, 3]) - Creates a box plot with values [1, 2, 3].
+7. plt.xlabel('X Axis') - Sets the x-axis label to "X Axis".
+8. plt.ylabel('Y Axis') - Sets the y-axis label to "Y Axis".
+9. plt.title('Plot Title') - Sets the plot title to "Plot Title".
+10. plt.show() - Displays the plot.
+
+'''
